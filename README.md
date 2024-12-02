@@ -3,6 +3,14 @@
 Currently just a readme file template I intend to use across repos.
 Will add shared resources here.
 
+## Links
+https://hero-generator.netlify.app/
+https://jsfiddle.net/
+https://jsonplaceholder.typicode.com/
+https://www.lipsum.com/
+https://hipsum.co/
+
+
 ## Future plans
 
 - [ ] Move future plans to issues
