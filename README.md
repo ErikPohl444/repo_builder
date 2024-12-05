@@ -11,6 +11,8 @@ Will add shared resources here.
 |https://jsonplaceholder.typicode.com/ |
 |https://www.lipsum.com/               |
 |https://hipsum.co/                    |
+|https://devguide.python.org/          |
+|https://www.jdoodle.com/execute-nodejs-online|
 
 
 ## Future plans
