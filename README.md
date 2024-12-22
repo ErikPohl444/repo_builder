@@ -4,15 +4,16 @@ Currently just a readme file template I intend to use across repos.
 Will add shared resources here.
 
 ## Links
-|Link                                  |
-|--------------------------------------|
-|https://hero-generator.netlify.app/   |
-|https://jsfiddle.net/                 |
-|https://jsonplaceholder.typicode.com/ |
-|https://www.lipsum.com/               |
-|https://hipsum.co/                    |
-|https://devguide.python.org/          |
-|https://www.jdoodle.com/execute-nodejs-online|
+|Link                                         | Purpose                                                                     |
+|---------------------------------------------|-----------------------------------------------------------------------------|
+|https://hero-generator.netlify.app/          | Create a starter hero section of a website                                  |
+|https://jsfiddle.net/                        | Online IDE service and online community for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets, known as 'fiddles'. |
+|https://jsonplaceholder.typicode.com/        | Free fake and reliable API for testing and prototyping.                     | 
+|https://www.lipsum.com/                      | Dummy content available via a corruption of Cicero                          |
+|https://hipsum.co/                           | Dummy content available via a corruption of hipstero                        |
+|https://devguide.python.org/                 | How to contribute to Python itself                                          |
+|https://www.jdoodle.com/execute-nodejs-online| Run Node.js online via a web IDE                                            |
+|https://roadmap.sh/                          | Roadmaps to develop skills in a variety of different technical domains      |
 
 
 ## Future plans
