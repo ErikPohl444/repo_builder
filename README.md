@@ -13,7 +13,7 @@ Will add shared resources here.
 |https://hipsum.co/                           | Dummy content available via a corruption of hipstero                        |
 |https://devguide.python.org/                 | How to contribute to Python itself                                          |
 |https://www.jdoodle.com/execute-nodejs-online| Run Node.js online via a web IDE                                            |
-|https://roadmap.sh/                          | Roadmaps to develop skills in a variety of different technical domains      |
+|https://roadmap.sh/                          | Roadmaps to develop skills in a variety of different technical domains      |   
 
 
 ## Future plans
