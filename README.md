@@ -16,6 +16,7 @@ Will add shared resources here.
 |https://roadmap.sh/                          | Roadmaps to develop skills in a variety of different technical domains      |   
 |https://volca.io/kits/python/                | Starter kits for Django applications                                        |
 |https://getbootstrap.com/                    | Toolkit for responsive websites                                             |
+|https://www.pragmaticlinux.com/2020/09/setup-and-debug-a-django-app-in-pycharm-community-edition/|Create Django configs in Pycharm Community |
 
 
 ## Future plans
