@@ -1,7 +1,7 @@
 # resources 
 
 Currently just a readme file template I intend to use across repos.
-Will add shared resources here.
+Will add shared resources here
 
 ## Links
 |Link                                         | Purpose                                                                     |
@@ -15,8 +15,20 @@ Will add shared resources here.
 |https://www.jdoodle.com/execute-nodejs-online| Run Node.js online via a web IDE                                            |
 |https://roadmap.sh/                          | Roadmaps to develop skills in a variety of different technical domains      |   
 |https://volca.io/kits/python/                | Starter kits for Django applications                                        |
-|https://getbootstrap.com/                    | Toolkit for responsive websites                                             |
+|https://getbootstrap.com/                    | Toolkit for responsive websites-- Bootstrap!!!                              |
 |https://www.pragmaticlinux.com/2020/09/setup-and-debug-a-django-app-in-pycharm-community-edition/|Create Django configs in Pycharm Community |
+|https://www.strfti.me/                       | String format dates in Ruby, C, Python, and PHP                             |
+|https://regexr.com/                          | Regex tool 1                                                                |
+|https://regex-generator.olafneumann.org/     | Regex tool 2                                                                |
+|https://regex101.com/                        | Regex tool 3                                                                |
+|https://www.digicert.com/help/               | SSL Cert Checker                                                            |
+|https://tools.keycdn.com/speed               | Website speed test                                                          |
+|https://tools.keycdn.com/performance         | Website performance test                                                    |
+|https://jsonformatter.org/json-parser        | JSON parser                                                                 |
+|https://www.diffchecker.com/                 | Diff checker                                                                |
+|https://developer.mozilla.org/en-US/         | Documenting CSS, HTML, JavaScript                                           |
+|https://devdocs.io/                          | Docs for a variety of tools                                                 |
+
 
 
 ## Future plans
