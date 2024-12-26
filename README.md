@@ -28,7 +28,15 @@ Will add shared resources here
 |https://www.diffchecker.com/                 | Diff checker                                                                |
 |https://developer.mozilla.org/en-US/         | Documenting CSS, HTML, JavaScript                                           |
 |https://devdocs.io/                          | Docs for a variety of tools                                                 |
-
+|https://www.w3schools.com/w3css/w3css_templates.asp|CSS Web templates                                                          |
+|https://www.codeply.com/p?starter=Angular    | Angular and other starter snippets, including bootstrap                         |  
+|https://learngitbranching.js.org/?locale=en_US| Teach junior devs about Git Branching, using this interactive tool             |
+|https://cheetahtemplate.org/                  | Python code templates                                                          |
+|https://github.com/Python-templates           | Python project templates                                                       |
+|https://www.mycompiler.io/new/sql             | Online sql tool                                                                |
+|https://sqliteonline.com/                     | Online sqllite tool                                                            |
+|https://sqlfiddle.com/                        | Online sql tool                                                                |
+|https://www.w3schools.com/sql/sql_editor.asp  | Online sql tool                                                                |
 
 
 ## Future plans
