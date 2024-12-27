@@ -6,10 +6,10 @@ A set of files I intend to include in all repos:
 * [ ] setup.py [for Python]
 * [ ] requirements.txt [for Python]
 * [ ] Dockerfile
+* [ ] /source folder and related tooling
 * [ ] /docs folder and relating tooling
 * [ ] /tests folder and related tooling
 * [ ] MANIFEST.in 
-* [ ] /source folder and related tooling
 * [ ] Makefile
 * [x] CONTRIBUTING.md 
 * [x] AUTHORS
