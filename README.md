@@ -12,7 +12,7 @@ A set of files I intend to include in all repos:
 * [ ] /source folder and related tooling
 * [ ] Makefile
 * [x] CONTRIBUTING.md 
-* [ ] AUTHORS
+* [x] AUTHORS
 * [x] CODE_OF_CONDUCT.md
 * [ ] RELEASE.md
 * [ ] ACKNOWLEDGMENTS
