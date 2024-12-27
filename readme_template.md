@@ -29,15 +29,15 @@ I will explain how to test the system here using the automated tests.
 
 ## Contributing
 
-I invite contributions.  See the [Contribution Guidelines](CONTRIBUTING) for any guidelines.
+I invite contributions.  See the [Contribution Guidelines](CONTRIBUTING.md) for any guidelines.
 
 ## Authors
 
-[Dedicated Authors File](AUTHORS)
+[Dedicated Authors File](AUTHORS.md)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
