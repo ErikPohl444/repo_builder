@@ -16,4 +16,10 @@ if __name__ == '__main__':
 
     for item in x.tree().traverse():
         print(item.name, args.dest)
-        shutil.copyfile(item.name, args.dest+item.name)
+        if item.name == 'readme_template.md':
+            print("converting readme template to readme")
+            shutil.copyfile('readme_template.md', args.dest + 'README.md')
+        elif item.name == "README.md":
+            print("ignore resources readme")
+        else:
+            shutil.copyfile(item.name, args.dest+item.name)
