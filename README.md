@@ -11,7 +11,7 @@ A set of files I intend to include in all repos:
 * [ ] MANIFEST.in 
 * [ ] /source folder and related tooling
 * [ ] Makefile
-* [ ] CONTRIBUTING.md 
+* [x] CONTRIBUTING.md 
 * [ ] AUTHORS
 * [x] CODE_OF_CONDUCT.md
 * [ ] RELEASE.md
