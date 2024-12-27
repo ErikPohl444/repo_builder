@@ -55,6 +55,8 @@ Some online tools are here.  Please remember security and safety when posting in
 |https://www.w3schools.com/sql/sql_editor.asp  | Online sql tool                                                                |
 |https://www.toptal.com/developers/gitignore/  | Creates a default gitignore file                                               |
 |https://choosealicense.com/                   | Choose a license for your Github repo                                          |
+|https://jsonlint.com/                         | Format json and parse for errors                                               |
+|https://www.yamllint.com/                     | Format YAML and parse for errors                                               |
 
 ## Future plans
 
