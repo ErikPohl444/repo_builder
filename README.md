@@ -13,7 +13,7 @@ A set of files I intend to include in all repos:
 * [ ] Makefile
 * [ ] CONTRIBUTING.md 
 * [ ] AUTHORS
-* [ ] CODE_OF_CONDUCT.md
+* [x] CODE_OF_CONDUCT.md
 * [ ] RELEASE.md
 * [ ] ACKNOWLEDGMENTS
 
