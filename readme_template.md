@@ -29,17 +29,15 @@ I will explain how to test the system here using the automated tests.
 
 ## Contributing
 
-For now, I'd be excited to receive pull requests.  I don't have rules for contributing right now.
+I invite contributions.  See the [Contribution Guidelines](CONTRIBUTIONS) for any guidelines.
 
 ## Authors
 
-* **Erik Pohl** - *Initial work* - 
-
-Also see the list of github contributors.
+[Dedicated Authors File](AUTHORS)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
 ## Acknowledgments
 
