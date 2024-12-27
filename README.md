@@ -1,7 +1,23 @@
 # resources 
 
-Currently just a readme file template I intend to use across repos.
-Will add shared resources here
+A set of files I intend to include in all repos:
+* [x] Readme template
+* [x] License placeholder and instructions
+* [ ] setup.py [for Python]
+* [ ] requirements.txt [for Python]
+* [ ] Dockerfile
+* [ ] /docs folder and relating tooling
+* [ ] /tests folder and related tooling
+* [ ] MANIFEST.in 
+* [ ] /source folder and related tooling
+* [ ] Makefile
+* [ ] CONTRIBUTING.md 
+* [ ] AUTHORS
+* [ ] CODE_OF_CONDUCT.md
+* [ ] RELEASE.md
+* [ ] ACKNOWLEDGMENTS
+
+Some online tools are here.  Please remember security and safety when posting information into any of these tools.  When in doubt, find a non-online solution behind your firewall.
 
 ## Links
 |Link                                         | Purpose                                                                     |
