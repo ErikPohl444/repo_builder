@@ -29,7 +29,7 @@ I will explain how to test the system here using the automated tests.
 
 ## Contributing
 
-I invite contributions.  See the [Contribution Guidelines](CONTRIBUTIONS) for any guidelines.
+I invite contributions.  See the [Contribution Guidelines](CONTRIBUTING) for any guidelines.
 
 ## Authors
 
