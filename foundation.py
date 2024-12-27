@@ -14,12 +14,15 @@ if __name__ == '__main__':
     else:
         print(f"{args.dest} exists")
 
+    ignore_files = ["foundation.py", "README.md"]
+
     for item in x.tree().traverse():
         print(item.name, args.dest)
         if item.name == 'readme_template.md':
-            print("converting readme template to readme")
+            print(f"converting readme template to readme: {item.name} to README.md")
             shutil.copyfile('readme_template.md', args.dest + 'README.md')
-        elif item.name == "README.md":
-            print("ignore resources readme")
+        elif item.name in ignore_files:
+            print(f"ignore {item.name}")
         else:
+            print(f"copying {item.name} to {args.dest+item.name}")
             shutil.copyfile(item.name, args.dest+item.name)
