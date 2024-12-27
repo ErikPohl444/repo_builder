@@ -3,6 +3,9 @@
 A set of files I intend to include in all repos:
 * [x] Readme template
 * [x] License placeholder and instructions
+* [x] CONTRIBUTING.md 
+* [x] AUTHORS
+* [x] CODE_OF_CONDUCT.md
 * [ ] setup.py [for Python]
 * [ ] requirements.txt [for Python]
 * [ ] Dockerfile
@@ -11,9 +14,6 @@ A set of files I intend to include in all repos:
 * [ ] /tests folder and related tooling
 * [ ] MANIFEST.in 
 * [ ] Makefile
-* [x] CONTRIBUTING.md 
-* [x] AUTHORS
-* [x] CODE_OF_CONDUCT.md
 * [ ] RELEASE.md
 * [ ] ACKNOWLEDGMENTS
 
