@@ -7,7 +7,7 @@ A set of files I intend to include in all repos:
 * [x] AUTHORS
 * [x] CODE_OF_CONDUCT.md
 * [ ] setup.py [for Python]
-* [ ] requirements.txt [for Python]
+* [x] requirements.txt [for Python]
 * [ ] Dockerfile
 * [ ] /source folder and related tooling
 * [ ] /docs folder and relating tooling
