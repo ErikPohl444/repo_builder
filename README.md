@@ -38,6 +38,7 @@ Will add shared resources here
 |https://sqlfiddle.com/                        | Online sql tool                                                                |
 |https://www.w3schools.com/sql/sql_editor.asp  | Online sql tool                                                                |
 |https://www.toptal.com/developers/gitignore/  | Creates a default gitignore file                                               |
+|https://choosealicense.com/                   | Choose a license for your Github repo                                          |
 
 ## Future plans
 
