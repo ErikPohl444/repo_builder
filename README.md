@@ -8,14 +8,14 @@ A set of files I intend to include in all repos:
 * [x] CODE_OF_CONDUCT.md
 * [ ] setup.py [for Python]
 * [x] requirements.txt [for Python]
-* [ ] Dockerfile
+* [x] empty Dockerfile placeholder
 * [ ] /source folder and related tooling
 * [ ] /docs folder and relating tooling
 * [ ] /tests folder and related tooling
 * [ ] MANIFEST.in 
 * [ ] Makefile
 * [ ] RELEASE.md
-* [ ] ACKNOWLEDGMENTS
+* [x] ACKNOWLEDGMENTS
 
 Some online tools are here.  Please remember security and safety when posting information into any of these tools.  When in doubt, find a non-online solution behind your firewall.
 
