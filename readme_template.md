@@ -52,6 +52,7 @@ Repo checklist:
   * [ ] Confirm tests are in /tests
   * [ ] Confirm source code is in /source
   * [ ] Confirm docs are in /docs
+  * [ ] There is a very primitive setup_logging.py file included here to import for [logging purposes](https://docs.python.org/3/library/logging.html).  Delete it, make your own, etc.  
   * [ ] Create [Setup.py](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/) for Python packages.
         
 ## Important disclaimer
