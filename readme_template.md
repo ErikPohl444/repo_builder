@@ -78,6 +78,20 @@ I will provide installation steps here.
 
 I will explain how to test the system here using the automated tests.
 
+## Technologies used
+
+List the technologies used here.
+
+e.g.
+* Written in Chicken 2.0
+
+## Minimum system requirements
+
+List the minimum system requirements for the application to run.
+
+e.g.
+* Must be run on VALIS.
+
 ## Contributing
 
 I invite contributions.  See the [Contribution Guidelines](CONTRIBUTING.md) for any guidelines.
