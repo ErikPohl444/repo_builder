@@ -31,8 +31,9 @@ Repo checklist:
     * Delete the current CODE_OF_CONDUCT.md if you don't want the recommended code of conduct.
     * If you prefer another code of conduct, you can make your own or use GitHub's [easy instructions](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project).
 * [ ] Accept a CODEOWNERS file.
-* Blank is fine to start out with.
-* Use [these instruction](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) from Github if you'd like to develop CODEOWNERS more.
+    * Blank is fine to start out with.
+    * Use [these instruction](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) from Github if you'd like to develop CODEOWNERS more.
+* [ ] Modify CONTRIBUTING.md, if you want [instructions for contributing](https://contributing.md/how-to-build-contributing-md/).
 * [ ] Add a [CITATIONS.cff file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) if you'd like to specify how others cite your work.
 * [ ] Update README.md
 * [ ] If you need a Makefile, [make one](https://makefiletutorial.com/)
