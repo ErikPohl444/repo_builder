@@ -1,6 +1,6 @@
 # resources 
 
-A set of files I intend to include in all repos:
+Generate a set of files I intend to include in all repos:
 * [x] Readme template
 * [x] License placeholder and instructions
 * [x] CONTRIBUTING.md 
