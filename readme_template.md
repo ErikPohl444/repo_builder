@@ -42,6 +42,7 @@ Repo checklist:
 * [ ] If you need a Makefile for builds, [make one](https://makefiletutorial.com/)
 * [ ] If you need a Manifest, [manifest one](https://docs.github.com/en/apps/sharing-github-apps/registering-a-github-app-from-a-manifest).
 * [ ] Consider releasing a [release plan](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+* [ ] Do you need/want a config file in json, yaml, or .ini?
 * [ ] Incorporate a [CI/CD pipeline](https://github.com/resources/articles/devops/ci-cd):
     * [ ] Create GitHub Actions [for your repo](https://github.com/features/actions).
         * Other tools like [Travis](https://www.travis-ci.com/) and [Jenkins](https://www.jenkins.io/solutions/pipeline/) and [Azure DevOps Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops) are available.    
