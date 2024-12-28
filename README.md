@@ -16,6 +16,7 @@ A set of files I intend to include in all repos:
 * [ ] Makefile
 * [ ] RELEASE.md
 * [x] ACKNOWLEDGMENTS
+* [ ] Change checklist in readme template to point to github instructions and others, not have them as referred docs in the repo 
 
 Some online tools are here.  Please remember security and safety when posting information into any of these tools.  When in doubt, find a non-online solution behind your firewall.
 
