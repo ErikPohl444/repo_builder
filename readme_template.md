@@ -1,8 +1,10 @@
 # [Application name] 
 
-Description of application
+Provide a description of application
 
 ## Future plans
+
+List a roadmap or future plans for the repo work.
 
 - [ ] 
 
@@ -64,19 +66,20 @@ If any disclaimer exists, add it here.
 
 ## Getting Started
 
-Instructions
+Provide non-setup instructions for getting started using the work in the repo.
 
 ## Prerequisites
 
-I'll provide prereqs here.
+This section has overlap with minimum system requirements, requirements.txt, and technologies.
+I consider this anything which needs to be on your machine or available to you before installing and using the work in the repo.
 
 ## Installing
 
-I will provide installation steps here.
+Provide installation steps here.
 
 ## Running the tests
 
-I will explain how to test the system here using the automated tests.
+Provide instructions on running the tests here.
 
 ## Technologies used
 
