@@ -25,7 +25,7 @@ Repo checklist:
 * [ ] Add [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to your repo to help the repo be searchable and comprehensible.
 * [ ] Enter any acknowledgements into ACKNOWLEDGEMENTS.md to acknowledge inspirations, code you've used, and people who helped you in your journey to this repo.
 * [ ] Accept a license to define how people can legally use, share, etc. your repo:
-    * The default license provided by this process is the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
+    * The default license provided by this process is the [MIT License](https://en.wikipedia.org/wiki/MIT_License).  **MODIFY the license for your name**  I'd like to automate this!
     * If you don't want that one, delete it from your repo and use GitHub to [select one easily](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
 * [ ] Accept a code of conduct to indicate how members of the community around your repo should interact:
     * Delete the current CODE_OF_CONDUCT.md if you don't want the recommended code of conduct for small projects, as currently available from GitHub.
