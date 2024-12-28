@@ -34,8 +34,17 @@ Repo checklist:
 * Use [these instruction](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) from Github if you'd like to develop CODEOWNERS more.
 * [ ] Add a [CITATIONS.cff file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) if you'd like to specify how others cite your work.
 * [ ] Update README.md
+* [ ] If you need a Makefile, [make one](https://makefiletutorial.com/)
+* [ ] If you need a Manifest, [manifest one](https://docs.github.com/en/apps/sharing-github-apps/registering-a-github-app-from-a-manifest).
+* [ ] Consider releasing a [release plan](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+* [ ] CI/CD:
+    * [ ] Create GitHub Actions [for your repo](https://github.com/features/actions).
+        * Other tools like [Travis](https://www.travis-ci.com/) and [Jenkins](https://www.jenkins.io/solutions/pipeline/) and [Azure DevOps Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops) are available.    
+    * [ ] Create [Git hooks](https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks), if you'd like.
+        * I recommend [pre-commit](https://pre-commit.com/).
+        * [Husky](https://typicode.github.io/husky/) is also available.   
 * [ ] Containerize the code.
-    * Add, for example, a Dockerfile or compose.yaml.   
+    * Add, for example, a Dockerfile or compose.yaml, if using Docker.   
 * [ ] This is a parent checkbox for all Python-specific items:
   * [ ] Populate requirements.txt and keep it populated through pip freeze > requirements.txt
   * [ ] Confirm tests are in /tests
