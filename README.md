@@ -13,11 +13,11 @@ Generate a set of files I intend to include in all repos:
 * [X] Change checklist in readme template to point to github instructions and others, not have them as referred docs in the repo
 * [x] requirements.txt [for Python]
 * [x] empty Dockerfile placeholder
-* [ ] setup.py [for Python]
+* [x] setup.py [for Python]
 * [ ] /source folder and related tooling
 * [ ] /docs folder and relating tooling
 * [ ] /tests folder and related tooling
-* [ ] Add other hyperlinks to important reference material in readme template 
+* [x] Add other hyperlinks to important reference material in readme template 
 
 Some online tools are here.  Please remember security and safety when posting information into any of these tools.  When in doubt, find a non-online solution behind your firewall.
 
