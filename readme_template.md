@@ -22,7 +22,7 @@ Repo checklist:
     * Refer to [these instructions](https://opensource.google/documentation/reference/releasing/authors) for other ways to create and maintain this reference. 
 * [ ] Add a [sponsor button](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository), if you intend to solicit funding for the work in your repo.
 * [ ] Add a [social media image](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview), if you'd like your repo to have a specific image when referenced in social media.
-* [ ] Add [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)to your repo to help the repo be searchable and comprehensible.
+* [ ] Add [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to your repo to help the repo be searchable and comprehensible.
 * [ ] Enter any acknowledgements into ACKNOWLEDGEMENTS.md to acknowledge inspirations, code you've used, and people who helped you in your journey to this repo.
 * [ ] Accept a license to define how people can legally use, share, etc. your repo:
     * The default license provided by this process is the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
