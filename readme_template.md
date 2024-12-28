@@ -13,6 +13,7 @@ Repo checklist:
 * [ ] Run foundation.py with the destination project folder as a command line argument.
     * This will copy all important files to your project, renaming at least one for your repo.
     * Don't worry.  It won't overwrite existing files with the same names there.
+* [ ] Complete a starter .git/config with [git aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases).  ** Erik to work on ** 
 * [ ] Complete a starter [.gitignore](https://git-scm.com/docs/gitignore#:~:text=A%20gitignore%20file%20specifies%20intentionally,gitignore%20file%20specifies%20a%20pattern.)
     * [ ] Keep the current starter .gitignore and add to it.
     * [ ] OR delete the starter I'm providing and either create one via template in GitHub by typing in the name .gitignore in the file name after choosing to create a file
@@ -24,6 +25,8 @@ Repo checklist:
 * [ ] Add a [social media image](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview), if you'd like your repo to have a specific image when referenced in social media.
 * [ ] Add [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to your repo to help the repo be searchable and comprehensible.
 * [ ] Enter any acknowledgements into ACKNOWLEDGEMENTS.md to acknowledge inspirations, code you've used, and people who helped you in your journey to this repo.
+* [ ] Create a technologies used in Readme ** Erik to work on **
+* [ ] Create a minimum system requirements in Readme ** Erik to work on **
 * [ ] Accept a license to define how people can legally use, share, etc. your repo:
     * The default license provided by this process is the [MIT License](https://en.wikipedia.org/wiki/MIT_License).  **MODIFY the license for your name**  I'd like to automate this!
     * If you don't want that one, delete it from your repo and use GitHub to [select one easily](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
