@@ -24,9 +24,12 @@ if __name__ == '__main__':
         elif item.name in ignore_files:
             print(f"ignore {item.name}")
         else:
-            print(f"copying {item.name} to {args.dest+item.name}")
             if os.path.exists(args.dest+item.name):
                 print(f"adding a .donotuse to the file name so as not to overwrite existing file with same name")
+                print(f"copying {item.name} to {args.dest + item.name}")
+
                 shutil.copyfile(item.name, args.dest+item.name+".donotuse")
             else:
+                print(f"copying {item.name} to {args.dest + item.name}")
+
                 shutil.copyfile(item.name, args.dest+item.name)
