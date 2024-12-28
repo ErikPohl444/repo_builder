@@ -13,46 +13,46 @@ Repo checklist:
 * [ ] Run foundation.py with the destination project folder as a command line argument.
     * This will copy all important files to your project, renaming at least one for your repo.
     * Don't worry.  It won't overwrite existing files with the same names there.
-* [ ] Complete .gitignore
-    * [ ] Keep the starter .gitignore and add to it.
+* [ ] Complete a starter [.gitignore](https://git-scm.com/docs/gitignore#:~:text=A%20gitignore%20file%20specifies%20intentionally,gitignore%20file%20specifies%20a%20pattern.)
+    * [ ] Keep the current starter .gitignore and add to it.
     * [ ] OR delete the starter I'm providing and either create one via template in GitHub by typing in the name .gitignore in the file name after choosing to create a file
-    * [ ] OR create one using https://www.toptal.com/developers/gitignore/
-* [ ] Follow AUTHORS_instructions to populate AUTHORS.md.
+    * [ ] OR create one [using this tool.](https://www.toptal.com/developers/gitignore/)
+* [ ] Populate AUTHORS.md with the authors of the work in the repo. 
     * Foundation will populate the first commit author if it can find a git repo and at least one commit.
     * Refer to [these instructions](https://opensource.google/documentation/reference/releasing/authors) for other ways to create and maintain this reference. 
-* [ ] Add a sponsor button, if interested: [sponsor button](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository)
-* [ ] Add a social media image, if interested: [social media image](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)
-* [ ] Add topics to your repo: [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)
-* [ ] Enter any acknowledgements into ACKNOWLEDGEMENTS.md.
-* [ ] Accept a license:
-    * The default license provided by this process is the MIT License.
+* [ ] Add a [sponsor button](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository), if you intend to solicit funding for the work in your repo.
+* [ ] Add a [social media]((https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)) image, if you'd like your repo to have a specific image when referenced in social media.
+* [ ] Add [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)to your repo to help the repo be searchable and comprehensible.
+* [ ] Enter any acknowledgements into ACKNOWLEDGEMENTS.md to acknowledge inspirations, code you've used, and people who helped you in your journey to this repo.
+* [ ] Accept a license to define how people can legally use, share, etc. your repo:
+    * The default license provided by this process is the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
     * If you don't want that one, delete it from your repo and use GitHub to [select one easily](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
-* [ ] Accept a code of conduct:
-    * Delete the current CODE_OF_CONDUCT.md if you don't want the recommended code of conduct.
+* [ ] Accept a code of conduct to indicate how members of the community around your repo should interact:
+    * Delete the current CODE_OF_CONDUCT.md if you don't want the recommended code of conduct for small projects, as currently available from GitHub.
     * If you prefer another code of conduct, you can make your own or use GitHub's [easy instructions](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project).
-* [ ] Accept a CODEOWNERS file.
+* [ ] Accept a CODEOWNERS file to enforce who the code owners are.
     * Blank is fine to start out with.
     * Use [these instruction](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) from Github if you'd like to develop CODEOWNERS more.
-* [ ] Modify CONTRIBUTING.md, if you want [instructions for contributing](https://contributing.md/how-to-build-contributing-md/).
+* [ ] Modify CONTRIBUTING.md, if you want [instructions for contributing to your repo](https://contributing.md/how-to-build-contributing-md/).
 * [ ] Add a [CITATIONS.cff file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) if you'd like to specify how others cite your work.
-* [ ] Update README.md
-* [ ] If you need a Makefile, [make one](https://makefiletutorial.com/)
+* [ ] Update README.md to pull all of the above together, along with other items important to understanding your repo.
+* [ ] If you need a Makefile for builds, [make one](https://makefiletutorial.com/)
 * [ ] If you need a Manifest, [manifest one](https://docs.github.com/en/apps/sharing-github-apps/registering-a-github-app-from-a-manifest).
 * [ ] Consider releasing a [release plan](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
-* [ ] CI/CD:
+* [ ] Incorporate a [CI/CD pipeline](https://github.com/resources/articles/devops/ci-cd):
     * [ ] Create GitHub Actions [for your repo](https://github.com/features/actions).
         * Other tools like [Travis](https://www.travis-ci.com/) and [Jenkins](https://www.jenkins.io/solutions/pipeline/) and [Azure DevOps Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops) are available.    
     * [ ] Create [Git hooks](https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks), if you'd like.
         * I recommend [pre-commit](https://pre-commit.com/).
         * [Husky](https://typicode.github.io/husky/) is also available.   
-* [ ] Containerize the code.
+* [ ] Containerize the code for distribtion, if you'd like.
     * Add, for example, a Dockerfile or compose.yaml, if using Docker.   
 * [ ] This is a parent checkbox for all Python-specific items:
-  * [ ] Populate requirements.txt and keep it populated through pip freeze > requirements.txt
+  * [ ] Populate [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/) and keep it populated through pip freeze > requirements.txt
   * [ ] Confirm tests are in /tests
   * [ ] Confirm source code is in /source
   * [ ] Confirm docs are in /docs
-  * [ ] Create Setup.py
+  * [ ] Create [Setup.py](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/) for Python packages.
         
 ## Important disclaimer
 
