@@ -24,24 +24,25 @@ def append_authors(dest_repo, repo_folder):
             first_commit = dest_repo.head.commit.author
             author_name = first_commit.name
             author_email = first_commit.email
-            today = date.today()
-            formatted_date = today.strftime("%m/%d/%Y")
-            try:
-                authors_handle.write(f"{author_name}|{author_email}|{formatted_date}\n")
-            except IOError:
-                logger.info("Couldn't write to authors file")
-                return False
-        except ValueError:
-            print("couldn't access author info for destination repo because there is no commit history")
+        except git.exc.GitCommandError:
+            logger.info("couldn't access author info for destination repo because there is no commit history")
+            return False
+        today = date.today()
+        formatted_date = today.strftime("%m/%d/%Y")
+        try:
+            authors_handle.write(f"{author_name}|{author_email}|{formatted_date}\n")
+        except IOError:
+            logger.info("Couldn't write to authors file")
             return False
     return True
+
 
 def update_license(dest_repo, repo_folder):
     logger.info("Modifying license to reflect current repo owner")
     try:
         first_commit = dest_repo.head.commit.author
         author_name = first_commit.name
-    except:
+    except git.exc.GitCommandError:
         logger.info("couldn't derive author name from destination repo, using _____")
         author_name = '_______'
     today = date.today()
@@ -62,6 +63,7 @@ def update_license(dest_repo, repo_folder):
         for line in lines:
             license_handle.write(line)
     return True
+
 
 if __name__ == '__main__':
     logger.info("Attempting to build a foundation based on https://github.com/ErikPohl444/resources")
