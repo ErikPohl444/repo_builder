@@ -11,7 +11,10 @@ Description of application
 Repo checklist:
 
 * [ ] Run foundation.py with the destination project folder as a command line argument.  This will copy all important files to your project, renaming at least one.  Don't worry.  It won't overwrite existing files with the same names there.
-* [ ] Use .gitignore_instructions.md to create a .gitignore file for your OS and project type, or leave it as-is and manually add it it.
+* [ ] Complete .gitignore
+ * [ ] Keep the starter .gitignore and add to it.
+ * [ ] OR delete the starter I'm providing and either create one via template in GitHub by typing in the name .gitignore in the file name after choosing to create a file
+ * [ ] OR create one using https://www.toptal.com/developers/gitignore/
 * [ ] Follow AUTHORS_instructions to populate AUTHORS.md.  AUTHORS.md will be populated with the first commit author if Foundation can find an author. 
 * [ ] [sponsor button](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository)
 * [ ] [social media image](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)
