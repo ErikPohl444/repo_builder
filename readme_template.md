@@ -18,7 +18,8 @@ Repo checklist:
     * [ ] OR delete the starter I'm providing and either create one via template in GitHub by typing in the name .gitignore in the file name after choosing to create a file
     * [ ] OR create one using https://www.toptal.com/developers/gitignore/
 * [ ] Follow AUTHORS_instructions to populate AUTHORS.md.
-    * Foundation will populate the first commit author if it can find a git repo and at least one commit. 
+    * Foundation will populate the first commit author if it can find a git repo and at least one commit.
+    * Refer to [these instructions](https://opensource.google/documentation/reference/releasing/authors) for other ways to create and maintain this reference. 
 * [ ] Add a sponsor button, if interested: [sponsor button](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository)
 * [ ] Add a social media image, if interested: [social media image](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)
 * [ ] Add topics to your repo: [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)
