@@ -27,9 +27,22 @@ if __name__ == '__main__':
             if os.path.exists(args.dest+item.name):
                 print(f"adding a .donotuse to the file name so as not to overwrite existing file with same name")
                 print(f"copying {item.name} to {args.dest + item.name}")
-
                 shutil.copyfile(item.name, args.dest+item.name+".donotuse")
             else:
                 print(f"copying {item.name} to {args.dest + item.name}")
-
                 shutil.copyfile(item.name, args.dest+item.name)
+                if item.name == "AUTHORS.md":
+                    with open(args.dest+item.name, "wt") as authors_handle:
+                        authors_handle.write('Author name|Author Email|Entry date\n')
+                        authors_handle.write('-----------|------------|----------\n')
+                        try:
+                            dest_repo = git.Repo(args.dest)
+                            first_commit = dest_repo.head.commit.author
+                            author_name = first_commit.name
+                            author_email = first_commit.email
+                            authors_handle.write(f"{author_name}|{author_email}|12/27/24\n")
+                        except:
+                            print("couldn't access author info for destination repo because there is no commit history")
+                
+
+
