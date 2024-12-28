@@ -8,8 +8,7 @@ Description of application
 
 ## Important disclaimer
 
-If any
-
+If any disclaimer exists, add it here.
 
 ## Getting Started
 
@@ -33,7 +32,7 @@ I invite contributions.  See the [Contribution Guidelines](CONTRIBUTING.md) for 
 
 ## Authors
 
-[Dedicated Authors File](AUTHORS.md)
+See the [Authors doc.](AUTHORS.md)
 
 ## License
 
