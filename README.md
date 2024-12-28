@@ -6,17 +6,18 @@ Generate a set of files I intend to include in all repos:
 * [x] CONTRIBUTING.md 
 * [x] AUTHORS
 * [x] CODE_OF_CONDUCT.md
-* [ ] setup.py [for Python]
+* [x] MANIFEST.in 
+* [x] Makefile
+* [x] RELEASE.md
+* [x] ACKNOWLEDGMENTS
+* [X] Change checklist in readme template to point to github instructions and others, not have them as referred docs in the repo
 * [x] requirements.txt [for Python]
 * [x] empty Dockerfile placeholder
+* [ ] setup.py [for Python]
 * [ ] /source folder and related tooling
 * [ ] /docs folder and relating tooling
 * [ ] /tests folder and related tooling
-* [ ] MANIFEST.in 
-* [ ] Makefile
-* [ ] RELEASE.md
-* [x] ACKNOWLEDGMENTS
-* [X] Change checklist in readme template to point to github instructions and others, not have them as referred docs in the repo 
+* [ ] Add other hyperlinks to important reference material in readme template 
 
 Some online tools are here.  Please remember security and safety when posting information into any of these tools.  When in doubt, find a non-online solution behind your firewall.
 
