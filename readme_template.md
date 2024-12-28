@@ -10,22 +10,32 @@ Description of application
 
 Repo checklist:
 
-* [ ] Run foundation.py with the destination project folder as a command line argument.  This will copy all important files to your project, renaming at least one.  Don't worry.  It won't overwrite existing files with the same names there.
+* [ ] Run foundation.py with the destination project folder as a command line argument.
+    * This will copy all important files to your project, renaming at least one for your repo.
+    * Don't worry.  It won't overwrite existing files with the same names there.
 * [ ] Complete .gitignore
     * [ ] Keep the starter .gitignore and add to it.
     * [ ] OR delete the starter I'm providing and either create one via template in GitHub by typing in the name .gitignore in the file name after choosing to create a file
     * [ ] OR create one using https://www.toptal.com/developers/gitignore/
-* [ ] Follow AUTHORS_instructions to populate AUTHORS.md.  AUTHORS.md will be populated with the first commit author if Foundation can find an author. 
-* [ ] [sponsor button](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository)
-* [ ] [social media image](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)
-* [ ] [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)
-* [ ] Populate ACKNOWLEDGEMENTS.md.
-* [ ] Delete the current LICENSE if you don't want the MIT license.  You can select one with LICENSE_instructions if needed.
-* [ ] Delete the current CODE_OF_CONDUCT.md if you don't want the recommended code of conduct.  You can select one with CODE_OF_CONDUCT_instructions if needed.
-* [ ] Add to CODEOWNERS.md using CODEOWNERS_instructions.md.
-* [ ] Follow CITATIONS_instructions.md to describe how to cite the code.
+* [ ] Follow AUTHORS_instructions to populate AUTHORS.md.
+    * Foundation will populate the first commit author if it can find a git repo and at least one commit. 
+* [ ] Add a sponsor button, if interested: [sponsor button](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository)
+* [ ] Add a social media image, if interested: [social media image](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview)
+* [ ] Add topics to your repo: [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics)
+* [ ] Enter any acknowledgements into ACKNOWLEDGEMENTS.md.
+* [ ] Accept a license:
+    * The default license provided by this process is the MIT License.
+    * If you don't want that one, delete it from your repo and use GitHub to [select one easily](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+* [ ] Accept a code of conduct:
+    * Delete the current CODE_OF_CONDUCT.md if you don't want the recommended code of conduct.
+    * If you prefer another code of conduct, you can make your own or use GitHub's [easy instructions](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project).
+* [ ] Accept a CODEOWNERS file.
+* Blank is fine to start out with.
+* Use [these instruction](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) from Github if you'd like to develop CODEOWNERS more.
+* [ ] Add a [CITATIONS.cff file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) if you'd like to specify how others cite your work.
 * [ ] Update README.md
-* [ ] Edit Dockerfile.
+* [ ] Containerize the code.
+    * Add, for example, a Dockerfile or compose.yaml.   
 * [ ] This is a parent checkbox for all Python-specific items:
   * [ ] Populate requirements.txt and keep it populated through pip freeze > requirements.txt
   * [ ] Confirm tests are in /tests
