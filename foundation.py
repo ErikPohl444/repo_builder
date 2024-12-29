@@ -3,7 +3,7 @@ import shutil
 import argparse
 import git
 from datetime import date
-from setup_logging import logger
+from src.setup_logging import logger
 
 
 def safe_copy(src, dest):
@@ -84,7 +84,7 @@ if __name__ == '__main__':
         raise ValueError
     else:
         logger.info(f"{args.dest} exists, so we can build the foundation")
-    ignore_files = ["foundation.py", "README.md"]
+    ignore_files = ["foundation.py", "README.md", ".gitkeep"]
     logger.info(f"defined ignore file list [{ignore_files}] for files not to copy to destination")
     for repo_resource in dest_repo.tree().traverse():
         resource_name = repo_resource.name
