@@ -60,6 +60,7 @@ Repo checklist:
   * [ ] There is a very primitive [setup_logging.py](https://github.com/ErikPohl444/resources/blob/main/src/setup_logging.py) file included here to import for [logging purposes](https://docs.python.org/3/library/logging.html).  Delete it, make your own, etc.  
   * [ ] If you'd like eventually to make a Python package, there's a starter [pyproject.toml](https://packaging.python.org/en/latest/tutorials/packaging-projects/#configuring-metadata) you can edit, or you can delete this file.
     * Because this resources utility is Python build tool agnostic, I am not including a setup.py for setuptools, or any other files or configurations specific to Hatchling, Poetry, setuptools, Flit, or PDM.
+    * More in-depth pyproject.toml information [here](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/).
         
 ## Important disclaimer
 
