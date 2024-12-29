@@ -50,13 +50,27 @@ Repo checklist:
         * Other tools like [Travis](https://www.travis-ci.com/) and [Jenkins](https://www.jenkins.io/solutions/pipeline/) and [Azure DevOps Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops) are available.    
     * [ ] Create [Git hooks](https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks), if you'd like.
         * I recommend [pre-commit](https://pre-commit.com/).
-        * [Husky](https://typicode.github.io/husky/) is also available.   
+        * [Husky](https://typicode.github.io/husky/) is also available.
+    * [ ] Confirm the following items are captured using Sonarqube or other static analysis tools and that you have a minimum tolerance for each metric which is tested against:
+            * Code Complexity:
+                * Cognitive complexity
+                * Cyclomatic code complexity
+            * Duplications
+            * Maintainability
+            * Issues
+            * Reliability
+            * Size
+            * Test Coverage
+            * Tests pass
+            * Security    
 * [ ] Containerize the code for distribtion, if you'd like.
     * Add, for example, a Dockerfile or compose.yaml, if using Docker.   
 * [ ] This is a parent checkbox for all Python-specific items:
   * [ ] Populate [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/) and keep it populated through pip freeze > requirements.txt
-  * [ ] Confirm tests are in /tests
-  * [ ] Confirm source code is in /source
+  * [ ] Confirm tests are in /tests.
+      * Leverage [pytest](https://docs.pytest.org/en/stable/) or another fully-modernized test framework for testing.
+      * Leverage [coverage.py](https://coverage.readthedocs.io/en/7.6.10/) or a similar tool for code coverage analysis.
+  * [ ] Confirm source code is in /src
   * [ ] Confirm docs are in /docs
   * [ ] There is a very primitive [setup_logging.py](https://github.com/ErikPohl444/resources/blob/main/src/setup_logging.py) file included here to import for [logging purposes](https://docs.python.org/3/library/logging.html).  Delete it, make your own, etc.  
   * [ ] If you'd like eventually to make a Python package, there's a starter [pyproject.toml](https://packaging.python.org/en/latest/tutorials/packaging-projects/#configuring-metadata) you can edit, or you can delete this file.
