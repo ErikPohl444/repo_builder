@@ -38,6 +38,7 @@ Repo checklist:
     * Blank is fine to start out with.
     * Use [these instruction](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) from Github if you'd like to develop CODEOWNERS more.
 * [ ] Modify CONTRIBUTING.md, if you want [instructions for contributing to your repo](https://contributing.md/how-to-build-contributing-md/).
+    * More detail can be found [here](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors).
 * [ ] Add a [CITATIONS.cff file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) if you'd like to specify how others cite your work.
 * [ ] Update README.md to pull all of the above together, along with other items important to understanding your repo.
 * [ ] If you need a Makefile for builds, [make one](https://makefiletutorial.com/)
