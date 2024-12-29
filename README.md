@@ -1,4 +1,4 @@
-# resources 
+# Resources 
 
 Generate a set of files I intend to include in all repos:
 * [x] Readme template
