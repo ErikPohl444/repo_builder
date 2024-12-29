@@ -90,7 +90,10 @@ if __name__ == '__main__':
         resource_name = repo_resource.name
         dest_file_name = args.dest + resource_name
         logger.info(f"naming {dest_file_name} as the destination file and path for {resource_name}")
-        if resource_name == 'readme_template.md':
+        if os.path.isdir(resource_name):
+            logger.info(f"found a folder in source resources {resource_name}, copying as a folder {dest_file_name}")
+            shutil.copytree(resource_name, dest_file_name)
+        elif resource_name == 'readme_template.md':
             logger.info(f"converting readme template to readme: {resource_name} to README.md")
             safe_copy('readme_template.md', args.dest + 'README.md')
         elif resource_name in ignore_files:
