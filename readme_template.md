@@ -52,17 +52,17 @@ Repo checklist:
         * I recommend [pre-commit](https://pre-commit.com/).
         * [Husky](https://typicode.github.io/husky/) is also available.
     * [ ] Confirm the following items are captured using Sonarqube or other static analysis tools and that you have a minimum tolerance for each metric which is tested against:
-            * Code Complexity:
-                * Cognitive complexity
-                * Cyclomatic code complexity
-            * Duplications
-            * Maintainability
-            * Issues
-            * Reliability
-            * Size
-            * Test Coverage
-            * Tests pass
-            * Security    
+        * Code Complexity:
+            * Cognitive complexity
+            * Cyclomatic code complexity
+        * Duplications
+        * Maintainability
+        * Issues metrics
+        * Reliability
+        * Size
+        * Test Coverage
+        * Passing and failing test metrics
+        * Security    
 * [ ] Containerize the code for distribtion, if you'd like.
     * Add, for example, a Dockerfile or compose.yaml, if using Docker.   
 * [ ] This is a parent checkbox for all Python-specific items:
