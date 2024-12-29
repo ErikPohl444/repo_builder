@@ -14,9 +14,9 @@ Generate a set of files I intend to include in all repos:
 * [x] requirements.txt [for Python]
 * [x] empty Dockerfile placeholder
 * [x] setup.py [for Python]
-* [ ] /source folder and related tooling
-* [ ] /docs folder and relating tooling
-* [ ] /tests folder and related tooling
+* [x] /source folder and related tooling
+* [x] /docs folder and relating tooling
+* [x] /tests folder and related tooling
 * [x] Add other hyperlinks to important reference material in readme template 
 
 Some online tools are here.  Please remember security and safety when posting information into any of these tools.  When in doubt, find a non-online solution behind your firewall.
