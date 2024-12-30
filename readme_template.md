@@ -62,13 +62,15 @@ Repo checklist:
         * Size
         * Test Coverage
         * Passing and failing test metrics
-        * Security    
+        * Security
+        * Linting  
 * [ ] Containerize the code for distribtion, if you'd like.
     * Add, for example, a Dockerfile or compose.yaml, if using Docker.   
 * [ ] This is a parent checkbox for all Python-specific items:
   * [ ] Populate [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/) and keep it populated through pip freeze > requirements.txt
+  * [ ] For a linting tool in your CI/CD pipeline or for integration with your IDE, consider ruff, pylint, flake8.
   * [ ] Confirm tests are in /tests.
-      * Leverage [pytest](https://docs.pytest.org/en/stable/) or another fully-modernized test framework for testing.
+      * Leverage [pytest](https://docs.pytest.org/en/stable/) or another fully-modernized test framework for  testing.
       * Leverage [coverage.py](https://coverage.readthedocs.io/en/7.6.10/) or a similar tool for code coverage analysis.
   * [ ] Confirm source code is in /src
   * [ ] Confirm docs are in /docs
