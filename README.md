@@ -1,25 +1,26 @@
-# Resources 
+# Repo Builder 
 
-Generate a set of files I intend to include in all repos:
-* [x] Readme template
-* [x] License placeholder and instructions
-* [x] CONTRIBUTING.md 
-* [x] AUTHORS
-* [x] CODE_OF_CONDUCT.md
-* [x] MANIFEST.in 
-* [x] Makefile
-* [x] RELEASE.md
-* [x] ACKNOWLEDGMENTS
-* [X] Change checklist in readme template to point to github instructions and others, not have them as referred docs in the repo
-* [x] requirements.txt [for Python]
-* [x] empty Dockerfile placeholder
-* [x] setup.py [for Python]
-* [x] /source folder and related tooling
-* [x] /docs folder and relating tooling
-* [x] /tests folder and related tooling
-* [x] Add other hyperlinks to important reference material in readme template 
+Simplify the process of adding recommended key files to your GitHub repo, specializing in Python repos, by calling foundation.py with a single argument: the folder of your new Git repo-- or one you want to apply some polish to.
 
-Some online tools are here.  Please remember security and safety when posting information into any of these tools.  When in doubt, find a non-online solution behind your firewall.
+Foundation will provide you the following files:
+* [ ] Data folder
+* [ ] Tests folder
+* [ ] Src folder containing a setup_logging.py template
+* [ ] Docs folder
+* [ ] Starter .gitignore
+* [ ] ACKNOWLEDGMENTS.md
+* [ ] AUTHORS.md [initialized with the owner of the repo by first commit]
+* [ ] CODEOWNERS
+* [ ] CODE_OF_CONDUCT.md [initialized with a default code of conduct from GitHub]
+* [ ] CONTRIBUTING.md
+* [ ] License starter file: MIT License
+* [ ] Readme template, including a checklist of how to finalize your repo
+* [ ] Example git aliases
+* [ ] pyproject.toml starter file
+* [ ] requirements.txt starter file containing: uv, ruff, pytest, coverage
+
+In addition to that functionality, the readme you are reading comes equipped with some online software engineering tools.  
+Please remember security and safety when posting information into any of these tools.  When in doubt, find a non-online solution behind your firewall.
 
 ## Links
 |Link                                         | Purpose                                                                     |
