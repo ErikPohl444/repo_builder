@@ -22,6 +22,8 @@ Foundation will provide you the following files:
 In addition to that functionality, the readme you are reading comes equipped with some online software engineering tools.  
 Please remember security and safety when posting information into any of these tools.  When in doubt, find a non-online solution behind your firewall.
 
+This could be a GitHub template repo, except for some automation under the hood.
+
 ## Links
 |Link                                         | Purpose                                                                     |
 |---------------------------------------------|-----------------------------------------------------------------------------|
