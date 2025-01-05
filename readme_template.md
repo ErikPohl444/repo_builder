@@ -68,13 +68,14 @@ Repo checklist:
     * Add, for example, a Dockerfile or compose.yaml, if using Docker.   
 * [ ] This is a parent checkbox for all Python-specific items:
   * [ ] Populate [requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/) and keep it populated through pip freeze > requirements.txt
-  * [ ] For a linting tool in your CI/CD pipeline or for integration with your IDE, consider ruff, pylint, flake8.
   * [ ] Confirm tests are in /tests.
-      * Leverage [pytest](https://docs.pytest.org/en/stable/) or another fully-modernized test framework for  testing.
-      * Leverage [coverage.py](https://coverage.readthedocs.io/en/7.6.10/) or a similar tool for code coverage analysis.
+      * [ ] Leverage [pytest](https://docs.pytest.org/en/stable/) or another fully-modernized test framework for  testing.
+      * [ ] Leverage [coverage.py](https://coverage.readthedocs.io/en/7.6.10/) or a similar tool for code coverage analysis.
   * [ ] Confirm source code is in /src
+      * [ ] For a linting tool in your CI/CD pipeline or for integration with your IDE, consider ruff, pylint, flake8.
+      * [ ] For a type-checking tool in your CI/CD pipeline, consider mypy.
+      * [ ] There is a very primitive [setup_logging.py](https://github.com/ErikPohl444/resources/blob/main/src/setup_logging.py) file included here to import for [logging purposes](https://docs.python.org/3/library/logging.html).  Delete it, make your own, etc.  
   * [ ] Confirm docs are in /docs
-  * [ ] There is a very primitive [setup_logging.py](https://github.com/ErikPohl444/resources/blob/main/src/setup_logging.py) file included here to import for [logging purposes](https://docs.python.org/3/library/logging.html).  Delete it, make your own, etc.  
   * [ ] If you'd like eventually to make a Python package, there's a starter [pyproject.toml](https://packaging.python.org/en/latest/tutorials/packaging-projects/#configuring-metadata) you can edit, or you can delete this file.
     * Because this resources utility is Python build tool agnostic, I am not including a setup.py for setuptools, or any other files or configurations specific to Hatchling, Poetry, setuptools, Flit, or PDM.
     * More in-depth pyproject.toml information [here](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/).
