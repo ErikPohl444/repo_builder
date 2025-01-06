@@ -25,6 +25,9 @@ Please remember security and safety when posting information into any of these t
 This could be a GitHub template repo, except for some automation under the hood.
 
 ## Links
+
+I recommend these for a software engineering starter kit, suitable for "Raindrop.io," "Pocket," "Evernote," or "Google Keep".
+
 |Link                                         | Purpose                                                                     |
 |---------------------------------------------|-----------------------------------------------------------------------------|
 |https://hero-generator.netlify.app/          | Create a starter hero section of a website                                  |
@@ -63,7 +66,8 @@ This could be a GitHub template repo, except for some automation under the hood.
 |https://jsonlint.com/                         | Format json and parse for errors                                               |
 |https://www.yamllint.com/                     | Format YAML and parse for errors                                               |
 |https://www.markdownguide.org/basic-syntax/   | Guide to markdown                                                              |
-|https://crontab.guru/every-5-minutes          | Crontab tool                                                                   |               
+|https://crontab.guru/every-5-minutes          | Crontab tool                                                                   |
+
 ## Future plans
 
 - [ ] Move future plans to issues
