@@ -67,7 +67,8 @@ I recommend these for a software engineering starter kit, suitable for "Raindrop
 |https://www.yamllint.com/                     | Format YAML and parse for errors                                               |
 |https://www.markdownguide.org/basic-syntax/   | Guide to markdown                                                              |
 |https://crontab.guru/every-5-minutes          | Crontab tool                                                                   |
-|https://github.com/DataExpert-io/data-engineer-handbook | All things data engineering                                         |         
+|https://github.com/DataExpert-io/data-engineer-handbook | All things data engineering                                         |
+|https://refactoring.guru/                     | Good toolkit for software design best practices                               |
 ## Future plans
 
 - [ ] Move future plans to issues
