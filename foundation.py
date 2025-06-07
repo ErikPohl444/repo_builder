@@ -50,7 +50,7 @@ def update_license(dest_repo, repo_folder):
     logger.info(f"Identified {author_name} for License and {formatted_date} for year")
     lines = []
     logger.info("reading existing license file")
-    with open(repo_folder + "LICENSE.", "rt") as license_handle:
+    with open(repo_folder + "/LICENSE.", "rt") as license_handle:
         for line in license_handle:
             oldline = line
             line = line.replace("Erik Pohl", author_name)
@@ -89,7 +89,7 @@ if __name__ == '__main__':
     for repo_resource in dest_repo.tree().traverse():
         resource_name = repo_resource.name
         if os.path.exists(repo_resource.name):
-            dest_file_name = args.dest + resource_name
+            dest_file_name = args.dest + '/' + resource_name
             logger.info(f"naming {dest_file_name} as the destination file and path for {resource_name}")
             if os.path.isdir(resource_name):
                 logger.info(f"found a folder in source resources {resource_name}, copying as a folder {dest_file_name}")
