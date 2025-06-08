@@ -10,7 +10,7 @@ def safe_copy(src, dest):
     if os.path.exists(dest):
         logger.info(f"adding a .resource to the file name so as not to overwrite existing file with same name")
         dest += '.resource'
-    logger.info(f"copying {repo_resource.name} to {args.dest + repo_resource.name}")
+    logger.info(f"copying {repo_resource.name} to {args.dest + '/' + repo_resource.name}")
     shutil.copyfile(src, dest)
     return True
 
@@ -50,7 +50,7 @@ def update_license(dest_repo, repo_folder):
     logger.info(f"Identified {author_name} for License and {formatted_date} for year")
     lines = []
     logger.info("reading existing license file")
-    with open(repo_folder + "/LICENSE.", "rt") as license_handle:
+    with open(repo_folder + "/LICENSE", "rt") as license_handle:
         for line in license_handle:
             oldline = line
             line = line.replace("Erik Pohl", author_name)
