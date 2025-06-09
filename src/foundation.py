@@ -17,7 +17,7 @@ def safe_copy(src, dest):
 
 def append_authors(dest_repo, repo_folder):
     logger.info("Appending author info if available from destination repo")
-    with open(repo_folder+"AUTHORS.md", "wt") as authors_handle:
+    with open(repo_folder+"/AUTHORS.md", "wt") as authors_handle:
         authors_handle.write('Author name|Author Email|Entry date\n')
         authors_handle.write('-----------|------------|----------\n')
         try:
@@ -59,7 +59,7 @@ def update_license(dest_repo, repo_folder):
                 logger.info("made a replacement")
             lines.append(line)
     logger.info("writing new license file")
-    with open(repo_folder+"LICENSE.", "wt") as license_handle:
+    with open(repo_folder+"/LICENSE.", "wt") as license_handle:
         for line in lines:
             license_handle.write(line)
     return True
@@ -99,7 +99,7 @@ if __name__ == '__main__':
                     logger.info(f"Not copying folder {dest_file_name} because it already exists")
             elif resource_name == 'readme_template.md':
                 logger.info(f"converting readme template to readme: {resource_name} to README.md")
-                safe_copy('readme_template.md', args.dest + 'README.md')
+                safe_copy('./readme_template.md', args.dest + '/README.md')
             elif resource_name in ignore_files:
                 logger.info(f"ignoring {resource_name} from copy to destination")
             else:
