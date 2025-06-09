@@ -1,3 +1,5 @@
+![Building building itself](CoverStory-promo_YOON_Tech.webp)
+
 # Repo Builder 
 
 Simplify the process of adding recommended key files to your GitHub repo, specializing in Python repos, by calling foundation.py with a single argument: the folder of your new Git repo-- or one you want to apply some polish to.

@@ -1,6 +1,3 @@
-![Building building itself](CoverStory-promo_YOON_Tech.webp)
-
-
 # [Application name] 
 
 Provide a description of application
