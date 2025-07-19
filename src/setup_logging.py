@@ -2,10 +2,13 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter(
+    '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 handler = logging.StreamHandler()
 handler.setFormatter(formatter)
 logger.addHandler(handler)
+
 
 def call_log(func):
     def wrapper(*args, **kwargs):
@@ -16,4 +19,10 @@ def call_log(func):
             return result
         except Exception as e:
             logger.info(f"Exception {e} was caught in function {func.__name__}")
+            raise
     return wrapper
+
+
+def raise_and_log(logged_exception: Exception, exception_message: str):
+    logger.error(exception_message)
+    raise logged_exception(exception_message)
